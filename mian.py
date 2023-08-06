@@ -4,12 +4,12 @@ from pptx import Presentation
 import pandas as pd
 from datetime import datetime
 import re  # 导入正则表达式模块
-
+#模板ppt路径
 src_file_path = 'D:/data/project/python/project2/test.pptx'
 dest_folder_path = 'D:/data/project/python/project2/copies'
-
-num_weeks = 50
-name = '小林'
+#复制之后的文件夹名称
+num_weeks = 50   #需要的份数
+name = '小林'  #你的名字
 
 def edit_pptx_file(file_path, week, name , workday):
     # 加载pptx文件
